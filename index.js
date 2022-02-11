@@ -1,23 +1,30 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require("inquirer");
-// const fs = require('fs');
+const fs = require('fs');
+const generatePage = require("./src/page-template.js");
+const { writeFile, copyFile } = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
-// const questions = () => {
-//     return inquirer.prompt([
-//     {
-//         type: "input",
-//         name: "name",
-//         message: "What is the name of your project?",
-//         validate: projectName => {
-//             if (projectName) {
-//                 return true;
-//             } else {
-//                 console.log("Enter your project's name, please!");
-//                 return false
-//             }
-//         }
+const questions = () => {
+    console.log(`
+    =======================
+    Let's Add a New Project
+    =======================
+    `);
+    return inquirer.prompt([
+    {
+        type: "input",
+        name: "name",
+        message: "What is the name of your project?",
+        validate: projectName => {
+            if (projectName) {
+                return true;
+            } else {
+                console.log("Enter your project's name, please!");
+                return false
+            }
+        }
     // },
     // {
     //     type: "input",
@@ -85,12 +92,19 @@ const inquirer = require("inquirer");
     //     }
     // },
     // {
+    //      type: 'confirm',
+    //      name: 'addLicense',
+    //      message: 'Would you like to add a project license?',
+    //      default: false
+    //     },
+    
+    // {
     //     type: "list",
     //     name: "license",
-    //     message: "What is your projects license?",
-    //     choices: ["email", "phone"]
+    //     message: "What is your project's license?",
+    //     choices: ["Apache License 2.0", "MIT", "GNU GPLv3", "GNU GPLv2", "ISC"]
     // },
-    //  {
+    // {
     //     type: "input",
     //     name: "github",
     //     message: "Enter your GitHub username.",
@@ -103,7 +117,7 @@ const inquirer = require("inquirer");
     //         }
     //     }
     // },
-    //  {
+    // {
     //     type: "input",
     //     name: "email",
     //     message: "Enter your email address.",
@@ -115,18 +129,23 @@ const inquirer = require("inquirer");
     //             return false
     //         }
     //     }
-//     }
-// ])
-// };
+    }
+])
+
+// put Thens after function call
+.then(answers => console.log(answers));
+};
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+fs.writeFile('README.me', data, err => {
+    err ? console.error(err) : console.log('Portfolio complete! Check out README.me to see the output!');
+});
 
-}
 
 // TODO: Create a function to initialize app
 function init() {
-    console.log("Hello!");
+    console.log("Hello! Let's make your README file.");
+    questions();
 }
 
 // Function call to initialize app
