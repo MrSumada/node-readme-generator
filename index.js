@@ -153,7 +153,9 @@ const questions = () => {
 
 // TODO: Create a function to initialize app
 function init() {
-    console.log("Hello! Let's make your README file.");
+    console.log(`
+    
+    Hello! Let's make your README file.`);
     return questions();
 }
 

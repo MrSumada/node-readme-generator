@@ -12,6 +12,12 @@ const writeFile = fileContent => {
                 message: "File created!"
             });
         });
+
+        console.log(`
+        
+        Done! You can find your README file in your dist folder.
+        
+        `)
     });
 };
 
