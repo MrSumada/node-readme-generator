@@ -3,8 +3,10 @@
 function renderLicenseBadge(data) {
   if (!data) {
     return ""
+  } else if (data.license === "GNU GPLv3" || data.license === "GNU GPLv2") {
+    return `https://img.shields.io/badge/license-${data.license.slice(4)}-green`
   } else {
-    return `https://img.shields.io/badge/license-${data.license}-green`
+    return `https://img.shields.io/badge/license-${data.license.slice(0)}-green`
   }
 }
 
@@ -29,53 +31,14 @@ function renderLicenseLink(data) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
-    return `## License
+    return `## LICENSE
     
-    This application is licensed under ${data.license}. Read more: (${renderLicenseLink(data)}).
-    
-    `
+    This application is licensed under ${data.license}. Read more: (${renderLicenseLink(data)}).`
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${renderLicenseBadge(data)}
-
-`;
+  return `# ${renderLicenseBadge(data)}`;
 }
-
-// module.exports = generateMarkdown;
-
-
-// const fs = require('fs');
-
-// const writeFile = fileContent => {
-//     return new Promise((resolve, reject) => {
-//         fs.writeFile("./dist/index.html", fileContent, err => {
-//             if (err) {
-//                 reject(err);
-//                 return;
-//             }
-//             resolve({
-//                 ok: true,
-//                 message: "File created!"
-//             });
-//         });
-//     });
-// };
-
-// const copyFile = fileContent => {
-//     return new Promise((resolve, reject) => {
-//         fs.copyFile("./src/style.css", "./dist/style.css", err => {
-//             if (err) {
-//                 reject(err);
-//                 return;
-//             }
-//             resolve({
-//                 ok: true,
-//                 message: "Stylesheet created!"
-//             });
-//         });
-//     });
-// };
 
 module.exports = { renderLicenseSection, generateMarkdown };
