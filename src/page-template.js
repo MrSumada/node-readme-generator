@@ -1,50 +1,50 @@
 const  { renderLicenseSection, generateMarkdown } = require("../utils/generateMarkdown.js");
 
 const generateReadMe = projectArr => {
-    return `${generateMarkdown(projectArr)}
+    return `![license](${generateMarkdown(projectArr)})
 
-    # ${projectArr.name}
+# ${projectArr.name}
 
-    ## DESCRIPTION
-    
-    ${projectArr.description}
+## DESCRIPTION
 
-
-    ## Table of Contents (Optional)
-
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributions](#contributions)
-    - [Tests](#tests)
-    - [Questions](#questions)
+${projectArr.description}
 
 
-    ## INSTALLATION
-    
-    ${projectArr.installation}
-    
-    ## USAGE
-    
-    ${projectArr.usage}
+## Table of Contents (Optional)
 
-    ${renderLicenseSection(projectArr)}
-    
-    ## CONTRIBUTIONS
-    
-    ${projectArr.contribution}
-    
-    ## TESTS
-    
-    ${projectArr.test}
-    
-    
-    ## Questions?
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    For any further questions, you can find my github profile here: https://github.com/${projectArr.github}
-    
-    Or you can contact me at ${projectArr.email}.
-    `;
+
+## INSTALLATION
+
+${projectArr.installation}
+
+## USAGE
+
+${projectArr.usage}
+
+${renderLicenseSection(projectArr)}
+
+## CONTRIBUTIONS
+
+${projectArr.contribution}
+
+## TESTS
+
+${projectArr.test}
+
+
+## Questions?
+
+For any further questions, you can find my github profile here: https://github.com/${projectArr.github}
+
+Or you can contact me at ${projectArr.email}.
+`;
 }
 
 module.exports = templateData => {

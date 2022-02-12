@@ -25,11 +25,7 @@ const  writeFile = require("./utils/generateFile.js");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
-    console.log(`
-    =======================
-    Let's Add a New Project
-    =======================
-    `);
+    
     return inquirer.prompt([
     {
         type: "input",
@@ -154,8 +150,10 @@ const questions = () => {
 // TODO: Create a function to initialize app
 function init() {
     console.log(`
-    
-    Hello! Let's make your README file.`);
+    ==================================================
+    Let's Make a Quality README File for Your Project!
+    ==================================================
+    `);
     return questions();
 }
 
