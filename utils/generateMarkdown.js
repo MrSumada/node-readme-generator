@@ -32,13 +32,13 @@ function renderLicenseLink(data) {
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
     return `## LICENSE
-    
-    This application is licensed under ${data.license}. Read more: (${renderLicenseLink(data)}).`
+
+This application is licensed under ${data.license}. Read more: (${renderLicenseLink(data)}).`
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${renderLicenseBadge(data)}`;
+  return `${renderLicenseBadge(data)}`;
 }
 
 module.exports = { renderLicenseSection, generateMarkdown };

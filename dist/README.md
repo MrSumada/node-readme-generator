@@ -1,10 +1,10 @@
-![license](# https://img.shields.io/badge/license-GPLv3-green)
+![license](https://img.shields.io/badge/license-Apache-green)
 
 # Fancy Clock
 
 ## DESCRIPTION
 
-A customizable clock with amazing CSS options.
+A customizedable clock with vast styling options.
 
 
 ## Table of Contents (Optional)
@@ -19,19 +19,19 @@ A customizable clock with amazing CSS options.
 
 ## INSTALLATION
 
-Download from github and run the install package.
+donwload our install package from github.
 
 ## USAGE
 
-Wait until noon and click noon button.
+Wait until noon and click the noon button.
 
 ## LICENSE
     
-    This application is licensed under GNU GPLv3. Read more: (https://www.gnu.org/licenses/gpl-3.0.en.html).
+This application is licensed under Apache License 2.0. Read more: (https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 ## CONTRIBUTIONS
 
-Donate to my venmo @venmo.
+Donate to our venmo @fancy-clock-fake.
 
 ## TESTS
 
