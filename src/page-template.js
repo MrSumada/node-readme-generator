@@ -10,7 +10,7 @@ const generateReadMe = projectArr => {
 ${projectArr.description}
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
