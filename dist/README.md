@@ -1,4 +1,4 @@
-# https://img.shields.io/badge/license-Apache License 2.0-green
+# https://img.shields.io/badge/license-Apache-green
 
     # Fancy Clock
 

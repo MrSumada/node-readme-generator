@@ -5,8 +5,8 @@ function renderLicenseBadge(data) {
     return ""
   } else if (data.license === "GNU GPLv3" || data.license === "GNU GPLv2") {
     return `https://img.shields.io/badge/license-${data.license.slice(4)}-green`
-  } else {
-    return `https://img.shields.io/badge/license-${data.license.slice(0)}-green`
+  } else if (data.license === "Apache License 2.0") {
+    return `https://img.shields.io/badge/license-Apache-green`
   }
 }
 
