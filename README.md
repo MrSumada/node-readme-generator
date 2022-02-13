@@ -9,7 +9,6 @@ A simple command line application for generating high quality README files for y
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contributions](#contributions)
 - [Tests](#tests)
 - [Questions](#questions)
