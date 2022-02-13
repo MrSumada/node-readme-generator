@@ -20,7 +20,7 @@ Clone this repository and run npm init before installing any dependencies.
 
 ## USAGE
 
-For an example of the NodeJs README Generator in action, watch this video: https://drive.google.com/file/d/1fUfpCeqPf-zky93sHRaLGx1SlAUa-luS/view?usp=sharing
+For an example of the NodeJs README Generator in action, watch this video: https://drive.google.com/file/d/1LcVmBm9wtclE4VDttHg5k9ib8fUpeLzN/view
 
 
 ## CONTRIBUTIONS
