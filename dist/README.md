@@ -1,13 +1,13 @@
-![license](https://img.shields.io/badge/license-Apache-green)
+![license](https://img.shields.io/badge/license-MIT-green)
 
 # Fancy Clock
 
 ## DESCRIPTION
 
-A customizedable clock with vast styling options.
+It gives the user a fancy clock, with customizable styling options.
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,27 +19,27 @@ A customizedable clock with vast styling options.
 
 ## INSTALLATION
 
-donwload our install package from github.
+Run the install package.
 
 ## USAGE
 
-Wait until noon and click the noon button.
+Use at any time of day.
 
 ## LICENSE
-    
-This application is licensed under Apache License 2.0. Read more: (https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+This application is licensed under MIT. Read more: (https://opensource.org/licenses/MIT).
 
 ## CONTRIBUTIONS
 
-Donate to our venmo @fancy-clock-fake.
+Support us on Venmo.
 
 ## TESTS
 
-Compare to a clock in your home!
+Compare to a clock in your home.
 
 
 ## Questions?
 
 For any further questions, you can find my github profile here: https://github.com/MrSumada
 
-Or you can contact me at adamrileypayne@gmail.com.
+Or you can contact me at ricksamericana@gmail.com.

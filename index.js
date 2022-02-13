@@ -4,25 +4,6 @@ const fs = require('fs');
 const generateReadMe = require("./src/page-template.js");
 const  writeFile = require("./utils/generateFile.js");
 
-
-
-// const promptUser = () => {
-//     return inquirer.prompt([
-//         {
-//             type: "input",
-//             name: "name",
-//             message: "What is your name? (Required)",
-//             validate: nameInput => {
-//                 if (nameInput) {
-//                     return true;
-//                 } else {
-//                     console.log('Please enter your name!');
-//                     return false;
-//                 }
-//             }
-//         }
-//     ])}
-
 // TODO: Create an array of questions for user input
 const questions = () => {
     
@@ -105,17 +86,10 @@ const questions = () => {
             }
         }
     },
-    // {
-    //     type: 'confirm',
-    //     name: 'addLicense',
-    //     message: 'Would you like to add a project license?',
-    //     default: false
-    //     },
-    
     {
         type: "list",
         name: "license",
-        message: "What is your project's license?",
+        message: "What is license does your project use?",
         choices: ["Apache License 2.0", "MIT", "GNU GPLv3", "GNU GPLv2", "ISC"]
     },
     {
