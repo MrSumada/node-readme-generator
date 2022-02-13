@@ -1,10 +1,10 @@
-![license](https://img.shields.io/badge/license-MIT-green)
+![license](https://img.shields.io/badge/license-Apache-green)
 
-# Fancy Clock
+# NodeJs README Generator
 
 ## DESCRIPTION
 
-It gives the user a fancy clock, with customizable styling options.
+A simple command line application for generating high quality README files for your github projects. This README itself was generated using this application!
 
 
 ## Table of Contents
@@ -19,23 +19,23 @@ It gives the user a fancy clock, with customizable styling options.
 
 ## INSTALLATION
 
-Run the install package.
+Clone this repository and run npm init before installing any dependencies.
 
 ## USAGE
 
-Use at any time of day.
+For an example of the NodeJs README Generator in action, watch this video: https://drive.google.com/file/d/1fUfpCeqPf-zky93sHRaLGx1SlAUa-luS/view?usp=sharing
 
 ## LICENSE
 
-This application is licensed under MIT. Read more: (https://opensource.org/licenses/MIT).
+This application is licensed under Apache License 2.0. Read more: (https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 ## CONTRIBUTIONS
 
-Support us on Venmo.
+Our goal is to get clearly communicated README's for as many projects as possible. You can contribute by making this the new normal!
 
 ## TESTS
 
-Compare to a clock in your home.
+After running node index, create a fake project utilizing each parameter. This will help familiarzie yourself with the flow of the program, and shouldn't take too much of your time. 
 
 
 ## Questions?
