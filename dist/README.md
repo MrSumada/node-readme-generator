@@ -2,7 +2,7 @@
 
 # Fancy Clock
 
-## DESCRIPTION
+## Description
 
 A fancy clock with customizable hands.
 
@@ -17,23 +17,23 @@ A fancy clock with customizable hands.
 - [Questions](#questions)
 
 
-## INSTALLATION
+## Installation
 
 Run the install package.
 
-## USAGE
+## Usage
 
 Use at any time of day!
 
-## LICENSE
+## License
 
 This application is licensed under Apache License 2.0. Read more: (https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-## CONTRIBUTIONS
+## Contributions
 
 Share it with your friends.
 
-## TESTS
+## Tests
 
 Compare to a clock in your home.
 

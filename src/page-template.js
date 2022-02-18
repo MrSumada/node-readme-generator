@@ -5,7 +5,7 @@ const generateReadMe = projectArr => {
 
 # ${projectArr.name}
 
-## DESCRIPTION
+## Description
 
 ${projectArr.description}
 
@@ -20,21 +20,21 @@ ${projectArr.description}
 - [Questions](#questions)
 
 
-## INSTALLATION
+## Installation
 
 ${projectArr.installation}
 
-## USAGE
+## Usage
 
 ${projectArr.usage}
 
 ${renderLicenseSection(projectArr)}
 
-## CONTRIBUTIONS
+## Contributions
 
 ${projectArr.contribution}
 
-## TESTS
+## Tests
 
 ${projectArr.test}
 
