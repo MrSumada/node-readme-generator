@@ -17,7 +17,7 @@ const questions = () => {
                 return true;
             } else {
                 console.log("Enter your project's name, please!");
-                return false
+                return false;
             }
         }
     },
@@ -30,7 +30,7 @@ const questions = () => {
                 return true;
             } else {
                 console.log("Enter your project's description, please!");
-                return false
+                return false;
             }
         }
     },
@@ -43,7 +43,7 @@ const questions = () => {
                 return true;
             } else {
                 console.log("Enter your project's installation instructions, please!");
-                return false
+                return false;
             }
         }
     },
@@ -56,7 +56,7 @@ const questions = () => {
                 return true;
             } else {
                 console.log("Enter your project's usage information, please!");
-                return false
+                return false;
             }
         }
     },
@@ -69,7 +69,7 @@ const questions = () => {
                 return true;
             } else {
                 console.log("Enter your project's contribution guidelines, please!");
-                return false
+                return false;
             }
         }
     },
@@ -82,7 +82,7 @@ const questions = () => {
                 return true;
             } else {
                 console.log("Enter your project's test instructions, please!");
-                return false
+                return false;
             }
         }
     },
@@ -101,7 +101,7 @@ const questions = () => {
                 return true;
             } else {
                 console.log("Enter your GitHub Username, please!");
-                return false
+                return false;
             }
         }
     },
@@ -114,7 +114,7 @@ const questions = () => {
                 return true;
             } else {
                 console.log("Enter your email address, please!");
-                return false
+                return false;
             }
         }
     }

@@ -1,3 +1,5 @@
+![license](https://img.shields.io/badge/license-GPLv3-green)
+
 # NodeJs README Generator
 
 ## DESCRIPTION

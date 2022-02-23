@@ -1,7 +1,7 @@
-const  { renderLicenseSection, generateMarkdown } = require("../utils/generateMarkdown.js");
+const  { renderLicenseSection, renderLicenseBadge } = require("../utils/generateMarkdown.js");
 
 const generateReadMe = projectArr => {
-    return `![license](${generateMarkdown(projectArr)})
+    return `![license](${renderLicenseBadge(projectArr)})
 
 # ${projectArr.name}
 
