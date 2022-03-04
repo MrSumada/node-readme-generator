@@ -1,10 +1,10 @@
-![license](https://img.shields.io/badge/license-GPLv3-green)
+![license](https://img.shields.io/badge/license-Apache-green)
 
-# Fancy Clock
+# Node HTML Creator for Teams
 
 ## Description
 
-A fancy clock with customizable hands.
+A simple HTML creator that allows teams to create an easy attractive and responsive "Our Team" page for their Manager, their engineers, and their interns.
 
 
 ## Table of Contents
@@ -19,27 +19,27 @@ A fancy clock with customizable hands.
 
 ## Installation
 
-Run the install package.
+Clone the repo, use the npm install command, and then just launch with node index.
 
 ## Usage
 
-Use at any time of day!
+Follow the video for a quick walkthrough of the creator in action: https://drive.google.com/file/d/13Llgb_iGzaWAf89J2O9bXc7hjeMQsews/view
 
 ## License
 
-This application is licensed under GNU GPLv3. Read more: (https://www.gnu.org/licenses/gpl-3.0.en.html).
+This application is licensed under Apache License 2.0. Read more: (https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 ## Contributions
 
-Share it with your friends.
+N/A
 
 ## Tests
 
-Compare to a clock in your home.
+N/A
 
 
 ## Questions?
 
 For any further questions, you can find my github profile here: https://github.com/MrSumada
 
-Or you can contact me at fake@email.com.
+Or you can contact me at N/A.

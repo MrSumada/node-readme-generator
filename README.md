@@ -1,41 +1,45 @@
-![license](https://img.shields.io/badge/license-GPLv3-green)
+![license](https://img.shields.io/badge/license-Apache-green)
 
-# NodeJs README Generator
+# Node HTML Creator for Teams
 
-## DESCRIPTION
+## Description
 
-A simple command line application for generating high quality README files for your github projects. This README itself was generated using this application!
+A simple HTML creator that allows teams to create an easy attractive and responsive "Our Team" page for their Manager, their engineers, and their interns.
 
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
 - [Contributions](#contributions)
 - [Tests](#tests)
 - [Questions](#questions)
 
 
-## INSTALLATION
+## Installation
 
-Clone this repository and run npm init before installing any dependencies.
+Clone the repo, use the npm install command, and then just launch with node index.
 
-## USAGE
+## Usage
 
-For an example of the NodeJs README Generator in action, watch this video: https://drive.google.com/file/d/1LcVmBm9wtclE4VDttHg5k9ib8fUpeLzN/view
+Follow the video for a quick walkthrough of the creator in action: https://drive.google.com/file/d/13Llgb_iGzaWAf89J2O9bXc7hjeMQsews/view
 
+## License
 
-## CONTRIBUTIONS
+This application is licensed under Apache License 2.0. Read more: (https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-Our goal is to get clearly communicated README's for as many projects as possible. You can contribute by making this the new normal!
+## Contributions
 
-## TESTS
+Your commitment to using the Node HTML creator is all the contribution we need. And maybe tell your friends!
 
-After running node index, create a fake project utilizing each parameter. This will help familiarize yourself with the flow of the program, and shouldn't take too much of your time. 
+## Tests
+
+Simply add a single manager at first and make sure you can navigate to your new HTML in the dist folder.  If that works, simply run the program again and the HTML will be overridden with your new information!
 
 
 ## Questions?
 
 For any further questions, you can find my github profile here: https://github.com/MrSumada
 
-Or you can contact me at ricksamericana@gmail.com.
+Or you can contact at N-A@fakegmail.com
