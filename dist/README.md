@@ -1,10 +1,10 @@
 ![license](https://img.shields.io/badge/license-Apache-green)
 
-# Node HTML Creator for Teams
+# Expressive E-commerce Back End
 
 ## Description
 
-A simple HTML creator that allows teams to create an easy attractive and responsive "Our Team" page for their Manager, their engineers, and their interns.
+The comprehensive back end for the online store selling anything or everything.
 
 
 ## Table of Contents
@@ -19,11 +19,11 @@ A simple HTML creator that allows teams to create an easy attractive and respons
 
 ## Installation
 
-Clone the repo, use the npm install command, and then just launch with node index.
+Clone this repository, run npm init -y, and npm install. Launch your mysql server and run SOURCE db/schema.sql to create the ecommerce_db database. Then your ready to go!
 
 ## Usage
 
-Follow the video for a quick walkthrough of the creator in action: https://drive.google.com/file/d/13Llgb_iGzaWAf89J2O9bXc7hjeMQsews/view
+To see the Expressive E-commerce Back End in action, watch the walkthrough video here: https://drive.google.com/file/d/16dSBp2W-DCfB6c23KQRmi17k9YJ8lFE8/view
 
 ## License
 
@@ -35,7 +35,7 @@ N/A
 
 ## Tests
 
-N/A
+You can seed test data by running npm run seed. Then I'd recommend using a program like Insomnia to test the routes.
 
 
 ## Questions?

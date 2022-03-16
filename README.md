@@ -4,7 +4,7 @@
 
 ## Description
 
-A simple HTML creator that allows teams to create an easy attractive and responsive "Our Team" page for their Manager, their engineers, and their interns.
+A simple node-based README that allows you to create an easy attractive and high-quality README file for your github projects.
 
 
 ## Table of Contents
@@ -19,11 +19,11 @@ A simple HTML creator that allows teams to create an easy attractive and respons
 
 ## Installation
 
-Clone the repo, use the npm install command, and then just launch with node index.
+Clone the repo, use the `npm install` command, and then just launch with node index.
 
 ## Usage
 
-Follow the video for a quick walkthrough of the creator in action: https://drive.google.com/file/d/13Llgb_iGzaWAf89J2O9bXc7hjeMQsews/view
+Follow the video for a quick walkthrough of the creator in action: https://drive.google.com/file/d/1LcVmBm9wtclE4VDttHg5k9ib8fUpeLzN/view
 
 ## License
 
@@ -31,11 +31,11 @@ This application is licensed under Apache License 2.0. Read more: (https://www.a
 
 ## Contributions
 
-Your commitment to using the Node HTML creator is all the contribution we need. And maybe tell your friends!
+Your commitment to using the Node README creator is all the contribution we need. And maybe tell your friends!
 
 ## Tests
 
-Simply add a single manager at first and make sure you can navigate to your new HTML in the dist folder.  If that works, simply run the program again and the HTML will be overridden with your new information!
+Run the program with `node index` and quickly put in your information.  Make sure the README of that test information appears in the dist/ folder.
 
 
 ## Questions?
